@@ -1,0 +1,347 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font: 20px Arial,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/*Estilos Globales*/
+.contenedor
+{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1
+{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+/*Encabezado*/
+header
+{
+	background-color: #24282b;
+	color: #fff;
+	padding-top: 10px;
+	padding-right: 70px;
+	border-bottom: 5px solid #1293d4;
+}
+
+header a
+{
+	color: #fff;
+	text-decoration: none;
+	
+	font-size: 16px;
+}
+
+header li
+{
+	float: left; /* Orden de la Lista*/
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #marca h1
+{
+	margin: 0;
+}
+
+header nav
+{
+	float: right;
+	margin-top: 10px;
+}
+header .resaltado, header .actual a
+{
+	color: #FF9800;
+	font-weight: bold;
+}
+
+header a:hover
+{
+	color: #ccc;
+	font-weight: bold;
+}
+
+/*Cabecera con Imagenes*/
+#cabecera
+{
+	min-height: 250px;
+	background: url('../img/portada.jpg') 0px;
+	text-align: center;
+	color: #fff;
+}
+
+#cabeceraNintendo
+{
+	min-height: 250px;
+	background: url('../img/Nintendo.png') 40px;
+	text-align: center;
+	color: #fff;
+}
+
+#cabeceraXbox
+{
+	min-height: 250px;
+	background: url('../img/Xbox.jpg') 50px -190px;
+	text-align: center;
+	color: #fff;
+}
+
+#cabeceraPS4
+{
+	min-height: 250px;
+	background: url('../img/PS4.jpg') 70px;
+	text-align: center;
+	color: #fff;
+}
+
+/*Formulario*/
+
+#boletin
+{
+	padding: 2px;
+	color: #fff;
+	background: #24282b;
+}
+
+#boletin h1
+{
+	float: left;
+}
+
+#boletin form
+{
+float: right;
+margin-top: 15px;
+}
+
+#boletin input[type="email"]
+{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+/*Cajas*/
+
+#cajas
+{
+margin-top: 20px;
+}
+
+
+#cajas .caja
+{
+	float: left;
+	text-align: center;
+	width: 25%;
+	padding: 10px;
+	
+
+}
+
+#cajas .caja img
+{
+	width: 200px;
+}
+
+#cajas .caja p
+{
+	font-size: 15px;
+
+
+}
+/*Lateral*/
+aside#lateral{
+	float: right;
+	width: 25%;
+	margin-top: 10px;
+	font-size: 15px;
+}
+.oscuro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 1px;
+	margin-bottom: 30px;
+}
+
+/*Main-col */
+
+article#main-col{
+	float: left;
+	width: 70%;
+	font-size: 15px;
+}
+
+/*Pie de Pagina*/
+
+footer
+{
+padding: 5px;
+margin-top: 20px;
+color: #fff;
+background-color: #1293d4;
+text-align: center;
+font-size: 15px;
+
+}
+
+/*Formulario*/
+
+
+.formulario
+{
+	width: 300px;
+	max-width: 50%;
+	margin:auto;
+	margin-top: 30px
+	padding: 20px;
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+	position:relative;
+}
+
+
+.formulario_titulo
+{
+	text-align: center;
+	margin-top: 0;
+	color:rgba(0,0,0,0.7);	
+}
+
+.formulario_input,.formulario_label,.formulario_submit
+{
+	display:block;
+	width: 100%;
+	font-size: 1.3em;
+}
+
+.formulario_input
+{
+	padding: 20px;
+	background-color: rgba(65, 84, 172, 0.5);
+	border:1px solid rgba(0,0,0,0.3);
+	margin-bottom:40px
+}
+
+.formulario_label
+{
+	padding-left: 15px;
+	position:absolute;
+	margin-top: -85px;
+	z-index: -20;
+	color:rgba(0,0,0,0.5);
+	transition: all 0.2s
+
+}
+.formulario_submit
+{
+	background:rgba(0,0,0,0.7);
+	color:white;
+	padding: 10px 20px;
+	cursor:pointer;
+	border:none;
+}
+
+.formulario_input:focus
+{
+	outline: 1px solid rgba(0,0,0,0.7);
+}
+.formulario_input:focus + .formulario_label
+{
+	margin-top: -135px
+}
+
+.fijar
+{
+	margin-top: -135px;
+}
+
+
+/*Social Bar*/
+
+html
+{
+	font-size: 16px;
+}
+
+.social-bar
+{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon
+{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+
+}
+
+.icon-facebook
+{
+	background: #2E406E;
+	
+}
+
+.icon-twitter
+{
+	background: #339DC5;
+}
+
+.icon-youtube
+{
+	background: #E83028;
+	
+}
+
+.icon-twitch
+{
+	background: #6441A4;
+	
+}
+
+
+
+.icon:first-child
+{
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child
+{
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover
+{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42)
+}
