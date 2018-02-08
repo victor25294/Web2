@@ -151,7 +151,7 @@ margin-top: 20px;
 {
 	float: left;
 	text-align: center;
-	width: 25%;
+	width: 32%;
 	padding: 10px;
 	
 
@@ -159,7 +159,7 @@ margin-top: 20px;
 
 #cajas .caja img
 {
-	width: 200px;
+	width: 260px;
 }
 
 #cajas .caja p
@@ -175,13 +175,7 @@ aside#lateral{
 	margin-top: 10px;
 	font-size: 15px;
 }
-.oscuro{
-	padding: 15px;
-	background-color: #35424a;
-	color: #fff;
-	margin-top: 1px;
-	margin-bottom: 30px;
-}
+
 
 /*Main-col */
 
