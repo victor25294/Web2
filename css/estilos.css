@@ -83,7 +83,7 @@ header a:hover
 #cabecera
 {
 	min-height: 250px;
-	background: url('../img/portada.jpg') 0px;
+	background: url('../img/portada.gif') -283px;
 	text-align: center;
 	color: #fff;
 }
